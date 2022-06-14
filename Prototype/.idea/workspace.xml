@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa6a6408-228c-42da-8c23-662d7fb1f713" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2AMvlPbbwTDzHL8aJu2aXcsLRs6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\C1021G1-PhamDuyTuan-Module6\Sprint_3\Prototype\sign_up" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\C1021G1-PhamDuyTuan-Module6\Sprint_3\Prototype" />
+      <recent name="D:\C1021G1-PhamDuyTuan-Module6\Sprint_3\Prototype\sign_in" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa6a6408-228c-42da-8c23-662d7fb1f713" name="Changes" comment="" />
+      <created>1654832418278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654832418278</updated>
+      <workItem from="1654832419351" duration="24000" />
+      <workItem from="1654854244549" duration="1522000" />
+      <workItem from="1654921348272" duration="3996000" />
+      <workItem from="1654937009082" duration="7222000" />
+      <workItem from="1655001668564" duration="5268000" />
+      <workItem from="1655042262029" duration="178000" />
+      <workItem from="1655042450982" duration="19000" />
+      <workItem from="1655042509158" duration="5000" />
+      <workItem from="1655091340264" duration="10000" />
+      <workItem from="1655091380772" duration="79000" />
+      <workItem from="1655101900371" duration="28000" />
+      <workItem from="1655108115943" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

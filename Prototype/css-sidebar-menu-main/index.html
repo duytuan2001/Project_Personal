@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar Menu</title>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<nav>
+    <div class="sidebar-top">
+      <span class="shrink-btn">
+        <i class='bx bx-chevron-left'></i>
+      </span>
+        <img src="./img/logo.png" class="logo" alt="">
+        <h3 class="hide">Aqumex</h3>
+    </div>
+
+    <div class="search">
+        <i class='bx bx-search'></i>
+        <input type="text" class="hide" placeholder="Quick Search ...">
+    </div>
+
+    <div class="sidebar-links">
+        <ul>
+            <div class="active-tab"></div>
+            <li class="tooltip-element" data-tooltip="0">
+                <a href="#" class="active" data-active="0">
+                    <div class="icon">
+                        <i class='bx bx-tachometer'></i>
+                        <i class='bx bxs-tachometer'></i>
+                    </div>
+                    <span class="link hide">Dashboard</span>
+                </a>
+            </li>
+            <li class="tooltip-element" data-tooltip="1">
+                <a href="#" data-active="1">
+                    <div class="icon">
+                        <i class='bx bx-folder'></i>
+                        <i class='bx bxs-folder'></i>
+                    </div>
+                    <span class="link hide">Projects</span>
+                </a>
+            </li>
+            <li class="tooltip-element" data-tooltip="2">
+                <a href="#" data-active="2">
+                    <div class="icon">
+                        <i class='bx bx-message-square-detail'></i>
+                        <i class='bx bxs-message-square-detail'></i>
+                    </div>
+                    <span class="link hide">Messages</span>
+                </a>
+            </li>
+            <li class="tooltip-element" data-tooltip="3">
+                <a href="#" data-active="3">
+                    <div class="icon">
+                        <i class='bx bx-bar-chart-square'></i>
+                        <i class='bx bxs-bar-chart-square'></i>
+                    </div>
+                    <span class="link hide">Analytics</span>
+                </a>
+            </li>
+            <div class="tooltip">
+                <span class="show">Dashboard</span>
+                <span>Projects</span>
+                <span>Messages</span>
+                <span>Analytics</span>
+            </div>
+        </ul>
+
+        <h4 class="hide">Shortcuts</h4>
+
+        <ul>
+            <li class="tooltip-element" data-tooltip="0">
+                <a href="#" data-active="4">
+                    <div class="icon">
+                        <i class='bx bx-notepad'></i>
+                        <i class='bx bxs-notepad'></i>
+                    </div>
+                    <span class="link hide">Tasks</span>
+                </a>
+            </li>
+            <li class="tooltip-element" data-tooltip="1">
+                <a href="#" data-active="5">
+                    <div class="icon">
+                        <i class='bx bx-help-circle'></i>
+                        <i class='bx bxs-help-circle'></i>
+                    </div>
+                    <span class="link hide">Help</span>
+                </a>
+            </li>
+            <li class="tooltip-element" data-tooltip="2">
+                <a href="#" data-active="6">
+                    <div class="icon">
+                        <i class='bx bx-cog'></i>
+                        <i class='bx bxs-cog'></i>
+                    </div>
+                    <span class="link hide">Settings</span>
+                </a>
+            </li>
+            <div class="tooltip">
+                <span class="show">Tasks</span>
+                <span>Help</span>
+                <span>Settings</span>
+            </div>
+        </ul>
+    </div>
+
+    <div class="sidebar-footer">
+        <a href="#" class="account tooltip-element" data-tooltip="0">
+            <i class='bx bx-user'></i>
+        </a>
+        <div class="admin-user tooltip-element" data-tooltip="1">
+            <div class="admin-profile hide">
+                <img src="./img/face-1.png" alt="">
+                <div class="admin-info">
+                    <h3>John Doe</h3>
+                    <h5>Admin</h5>
+                </div>
+            </div>
+            <a href="#" class="log-out">
+                <i class='bx bx-log-out'></i>
+            </a>
+        </div>
+        <div class="tooltip">
+            <span class="show">John Doe</span>
+            <span>Logout</span>
+        </div>
+    </div>
+</nav>
+
+<div class="contents">
+    <div class="title">
+        <i class="uil uil-tachometer-fast-alt"></i>
+        <span class="text">Dashboard</span>
+    </div>
+    <div class="products">
+        <div class="product">
+            <img src="https://salt.tikicdn.com/media/catalog/product/i/m/img362_12.jpg" alt="product">
+            <span>Chi tiết</span>
+        </div>
+        <div class="product">
+            <img src="https://upload.wikimedia.org/wikipedia/vi/6/6c/Joboysbook.jpg" alt="product">
+            <span>Chi tiết</span>
+        </div>
+        <div class="product">
+            <img src="https://img.wattpad.com/cover/280854208-352-k555228.jpg" alt="product">
+            <span>Chi tiết</span>
+        </div>
+        <div class="product">
+            <img src="https://www.dtv-ebook.com/images/files_2/2020/tu-nhan-cua-thien-duong-carlos-ruiz-zafon.jpg"
+                 alt="product">
+            <span>Chi tiết</span>
+        </div>
+        <div class="product">
+            <img src="https://cdn0.fahasa.com/media/flashmagazine/images/page_images/hiep_si_don_quixote_an_pham_ki_niem_60_nam_thanh_lap_nxb_kim_dong/2021_06_10_16_32_04_1-390x510.jpg"
+                 alt="product">
+            <span>Chi tiết</span>
+        </div>
+        <div class="product">
+            <img src="https://toplist.vn/images/800px/nhung-cuoc-phieu-luu-cua-huckleberry-finn-mark-twain-517603.jpg"
+                 alt="product">
+            <span>Chi tiết</span>
+        </div>
+        <div class="product">
+            <img src="https://bloganchoi.com/wp-content/uploads/2019/04/trinh-tham-2-1.jpg" alt="product">
+            <span>Chi tiết</span>
+        </div>
+        <div class="product">
+            <img src="https://sach86.com/wp-content/uploads/2021/08/Hannibal-Troi-Day.jpg" alt="product">
+            <span>Chi tiết</span>
+        </div>
+        <div class="product">
+            <img src="https://bit.ly/2FG2qi0" alt="product">
+            <span>Chi tiết</span>
+        </div>
+        <div class="product">
+            <img src="https://bit.ly/2CTR8WU" alt="product">
+            <span>Chi tiết</span>
+        </div>
+        <div class="product">
+            <img src="https://bit.ly/2FV7UqH" alt="product">
+            <span>Chi tiết</span>
+        </div>
+        <div class="product">
+            <img src="https://bit.ly/2FLKqD2" alt="product">
+            <span>Chi tiết</span>
+        </div>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+
+</html>
